@@ -1,5 +1,7 @@
 body{
 	margin: 0px;
+	color: #161c32;
+	font-family: sans;
 }
 
 header{
@@ -7,28 +9,57 @@ header{
 	height: 100vh;
 	background-color: #444;
 	position: relative;
+	text-align: center;
 }
 
 .landingOverlay{
 	background-color: #c8d7ee;
 }
 
-#logo{
+.logo{
 	background-color: #161c32;
-	width: 500px;
-	height: 100px;
+	width: 800px;
+	height: 150px;
+	display: inline-block;
+	margin-top: 50px;
 }
 
 #titlebar{
 	height: 300px;
 	width: 100%;
 	position: absolute;
-	bottom: 250px;
+	bottom: 150px;
+}
+
+#navbar.fix{
+	position: fixed;
+	top: 0;
 }
 
 #navbar{
-	height: 150px;
+	height: 100px;
 	width: 100%;
 	position: absolute;
 	bottom: 0px;
+}
+
+span{
+	font-weight: 700;
+	font-size: 25px;
+	margin: 15px;
+}
+
+nav{
+	
+	margin-top: 30px;
+}
+
+section{
+	height: 2000px;
+	padding: 50px;
+}
+h1{
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
 }
