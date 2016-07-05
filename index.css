@@ -1,0 +1,15 @@
+header{
+	width: 100vh;
+	height: 100vw;
+	background-color: #444;
+}
+
+.landingOverlay{
+	background-color: #c8d7ee;
+}
+
+#logo{
+	background-color: #161c32;
+	width: 500px;
+	height: 100px;
+}
