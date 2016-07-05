@@ -1,7 +1,12 @@
+body{
+	margin: 0px;
+}
+
 header{
-	width: 100vh;
-	height: 100vw;
+	width: 100vw;
+	height: 100vh;
 	background-color: #444;
+	position: relative;
 }
 
 .landingOverlay{
@@ -12,4 +17,18 @@ header{
 	background-color: #161c32;
 	width: 500px;
 	height: 100px;
+}
+
+#titlebar{
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	bottom: 250px;
+}
+
+#navbar{
+	height: 150px;
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
 }
