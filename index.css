@@ -16,12 +16,19 @@ header{
 	background-color: #c8d7ee;
 }
 
-.logo{
+.textLogo{
 	background-color: #161c32;
 	width: 800px;
 	height: 150px;
 	display: inline-block;
 	margin-top: 50px;
+}
+
+.logo{
+	background-color: #161c32;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
 }
 
 #titlebar{
@@ -50,7 +57,7 @@ span{
 }
 
 nav{
-	
+	display: inline-block;
 	margin-top: 30px;
 }
 
