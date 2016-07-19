@@ -16,16 +16,33 @@ body{
 }
 
 h1, h2, h3, h4, span{
-	color: #161c32;
 	font-family: helvetica, sans-serif;
 }
 
+span{
+	color: #161c32;
+}
+
 h2{
+	color: #161c32;
 	font-weight: 100;
 	letter-spacing: 14px;
 	margin: 3px;
 }
 
+h3{
+	color: #DBA051;
+	font-size: 30px;
+	text-align: center;
+}
+
+
+
+section{
+	max-width: 1200px;
+	padding: 0 50px;
+	margin: 50px auto;
+}
 
 #title{
 	width: 900px;
@@ -36,6 +53,22 @@ h2{
 	background-image: url("img/bg.jpg");
 	background-position: center top;
 
+}
+
+.colParent{
+	
+}
+
+.col{
+	width: 48%;
+}
+
+.col1{
+	left: 0;
+}
+
+.col2{
+	right: 0;
 }
 
 .textbar{
