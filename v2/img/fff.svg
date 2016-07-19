@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 649.66 163.71">
+  <style>
+    *{
+      fill: #B9D4EF;
+    }
+    
+  </style>
+  <path d="M466.07,305.55c-14.89,0-27,16.62-27,37.11s12.07,37.11,27,37.11,27-16.62,27-37.11S481,305.55,466.07,305.55ZM466.32,369c-9.94-.47-17.08-11.82-17-26.47,0-16.69,9.22-26.46,17-26.47,11.61,0,17.54,16.22,17,27.06C483.35,354.56,477,369.52,466.32,369Z" transform="translate(-95.9 -216.46)"/>
+  <rect y="126.53" width="82.71" height="37.17"/>
+  <rect x="25" width="16.24" height="118.77"/>
+  <rect x="90.24" y="126.53" width="49.56" height="37.17"/>
+  <rect x="124.28" y="44.36" width="16.51" height="119.34"/>
+  <rect x="106.22" width="34.56" height="35.9"/>
+  <rect x="38.37" width="59.35" height="35.9"/>
+  <rect width="16.69" height="153.7"/>
+  <rect x="171.4" y="45.26" width="11.12" height="118.33"/>
+  <rect x="304.88" y="241.34" width="11.12" height="51.89" transform="translate(-52.75 361.26) rotate(-90)"/>
+  <rect x="291.91" y="298.08" width="11.12" height="25.95" transform="translate(-109.48 392.05) rotate(-90)"/>
+  <rect x="220.61" y="89.02" width="11.12" height="74.57"/>
+  <rect x="301.08" y="45.05" width="11.12" height="118.65"/>
+  <rect x="434.51" y="241.13" width="11.12" height="51.89" transform="translate(77.09 490.68) rotate(-90)"/>
+  <rect x="421.59" y="298.19" width="11.12" height="25.95" transform="translate(20.08 521.85) rotate(-90)"/>
+  <rect x="445.18" y="45.46" width="11.12" height="118.13"/>
+  <rect x="578.5" y="241.54" width="11.12" height="51.89" transform="translate(220.68 635.09) rotate(-90)"/>
+  <rect x="565.53" y="298.19" width="11.12" height="25.95" transform="translate(164.02 665.79) rotate(-90)"/>
+  <rect x="494.08" y="89.14" width="11.12" height="74.45"/>
+  <rect x="614.59" y="361.52" width="11.12" height="25.95" transform="translate(149.75 778.18) rotate(-90)"/>
+  <rect x="543.36" y="89.14" width="11.12" height="74.45"/>
+  <rect x="663.87" y="298.19" width="11.12" height="25.95" transform="translate(262.36 764.14) rotate(-90)"/>
+  <rect x="663.93" y="361.58" width="11" height="25.95" transform="translate(198.97 827.53) rotate(-90)"/>
+  <rect x="659.89" y="331.69" width="11.12" height="17.99" transform="translate(228.86 789.68) rotate(-90)"/>
+  <rect x="400.92" y="89.14" width="11.12" height="74.45"/>
+  <polygon points="276.54 124 295.02 105.1 295.06 89.15 268.76 116.04 276.54 124"/>
+  <polygon points="295 147.75 238.01 89.09 237.99 105.03 295 163.71 295 147.75"/>
+  <polygon points="256.26 129.01 237.96 147.72 238.13 163.45 264.04 136.96 256.26 129.01"/>
+  <polygon points="439.4 163.67 418.19 143.56 418.29 127.96 439.5 148.07 439.4 163.67"/>
+  <polygon points="631.14 128.68 649.62 147.58 649.66 163.53 623.36 136.63 631.14 128.68"/>
+  <polygon points="649.61 104.92 592.61 163.59 592.6 147.65 649.6 88.97 649.61 104.92"/>
+  <polygon points="610.86 123.67 592.56 104.96 592.73 89.22 618.64 115.71 610.86 123.67"/>
+  <path d="M514.33,306v9.18c11,1.35,11.11,18.56,0,19.81l0,8.32A18.71,18.71,0,0,0,532,324.61C532,314.77,524,306.72,514.33,306Z" transform="translate(-95.9 -216.46)"/>
+</svg>
