@@ -12,6 +12,9 @@
 
 
 body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden; 
 	background-color: #ecf1ff;
 }
 
@@ -24,10 +27,50 @@ span{
 }
 
 h2{
+	font-size: 24px;
 	color: #161c32;
 	font-weight: 100;
 	letter-spacing: 14px;
 	margin: 3px;
+}
+
+#title{
+	width: 900px;
+	margin: 0 40px;
+}
+@media(max-width: 1250px){
+	#title{
+		width: 700px;
+	}
+}
+@media(max-width: 900px){
+	#title{
+		width: 500px;
+	}
+	h2{
+		font-size: 18px;
+		letter-spacing: 8px;
+	}
+}
+@media(max-width: 700px){
+	#title{
+		width: 300px;
+		margin: 0 20px;
+	}
+	h2{
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+}
+@media(max-width: 450px){
+	#title{
+		margin-right: 10px;
+		margin-left: 80px;
+	}
+	h2{
+		font-size: 13px;
+		letter-spacing: 1px;
+	}
 }
 
 h3{
@@ -36,7 +79,19 @@ h3{
 	text-align: center;
 }
 
+nav{
+	transition: max-height 300ms ease-in-out, max-width 300ms ease-in-out;
+}
 
+.navExtended{
+	max-height: 400px;
+	max-width: 200px;
+}
+
+.navContracted{
+	max-height: 60px;
+	max-width: 80px;
+}
 
 section{
 	max-width: 1200px;
@@ -44,10 +99,7 @@ section{
 	margin: 50px auto;
 }
 
-#title{
-	width: 900px;
-	margin: 0 40px;
-}
+
 
 #mainbg{
 	background-image: url("img/bg.jpg");
@@ -77,25 +129,48 @@ section{
 }
 
 .brightOverlay{
-	background-color: rgba(185, 212, 239, 0.8);
+	background-color: rgba(185, 212, 239, 0.85);
 }
 
+.link{
+	cursor: pointer;
+	transition: background-color 100ms;
+}
+.link:hover{
+	background-color: rgba(236, 241, 255, 0.5);
+	//color: #475f76;
+}
 
 .button{
-	margin: 10px 15px;
-	padding: 5px 15px;
-	font-size: 20px;
-	cursor: pointer;
+	padding: 15px 25px;
+	font-size: 20px;	
+	display: block;
 }
-.button:hover{
-	background-color: rgba(236, 241, 255, 0.5);
-	color: #475f76;
+@media(max-width: 800px){
+	.button{
+		font-size: 16px;
+	}
+}
+
+.phButton{
+	height: 
 }
 
 .crop{
 	overflow: hidden;
 }
 
+.coverbg{
+	background-size: cover;
+}
+
+.centertext{
+	text-align: center;
+}
+
+.righttext{
+	text-align: right;
+}
 
 .rel{
 	position: relative;
@@ -109,20 +184,24 @@ section{
 	position: fixed;
 }
 
-.centertext{
-	text-align: center;
-}
-
 .bottom{
 	bottom: 0px;
-	right: 0px;
-	left: 0px;
 }
 
 .top{
 	top: 0px;
+}
+
+.right{
 	right: 0px;
+}
+
+.left{
 	left: 0px;
+}
+
+.mt10{
+	margin-top: 10px;
 }
 
 .fullscreen{
@@ -160,15 +239,14 @@ section{
 	justify-content: flex-end;
 }
 
+.hidden{
+	display: none;
+}
+
 .high{
 	height: 1000px;
 }
 
-.coverbg{
-	background-size: cover;
-}
-
-body{
-	margin: 0;
-	padding: 0;
+.z10{
+	z-index: 10;
 }

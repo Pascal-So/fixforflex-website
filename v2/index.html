@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width">
+
 	<title>FixForFlex</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -19,13 +21,15 @@
 			</div>
 		</div>
 	</div>
-	<!--img id="mainbg" class="abs" src="img/bg.jpg"-->
-	<nav class="brightOverlay abs bottom flex fh fcenter uppercase">
-		<span class="button">contact</span>
-		<span class="button">products</span>
-		<span class="button">projects</span>
-		<span class="button">about us</span>
-		<span class="button">gallery</span>
+	<!--nav class="brightOverlay abs bottom rigth left flex fh fcenter uppercase crop z10 centertext "   DESKTOP DEFAULT, 700+ px screenwidth -->
+	<!---nav class="brightOverlay fix top right navContracted uppercase crop z10 centertext" MOBILE DEFAULT -->
+	<nav class="brightOverlay abs bottom right left flex fh fcenter uppercase crop z10 centertext ">
+		<div class="button link righttext hidden" id="navtoggle"><img class="" src="img/hamburger.svg"></div>
+		<span class="button link">contact</span>
+		<span class="button link">products</span>
+		<span class="button link">projects</span>
+		<span class="button link">about us</span>
+		<span class="button link">gallery</span>
 	</nav>
 </header>
 
@@ -51,6 +55,7 @@
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div-->
 
+<div class="high"></div>
 
 </body>
 </html>
